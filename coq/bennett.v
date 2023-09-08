@@ -1,3 +1,5 @@
+(* Theory from Bennett, Having a Part Twice Over, 2013. *)
+
 Parameter Entity : Set.
 Parameter F : Entity -> Entity -> Prop.
 Parameter Ps : Entity -> Entity -> Prop.
