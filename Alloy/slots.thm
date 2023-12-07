@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view>
+
+<defaultnode/>
+
+<defaultedge/>
+
+<node>
+   <type name="Int"/>
+   <type name="String"/>
+   <type name="univ"/>
+   <type name="seq/Int"/>
+</node>
+
+<node shape="Box" color="Blue">
+   <type name="Slot"/>
+</node>
+
+<node shape="Ellipse" color="Green">
+   <type name="Filler"/>
+</node>
+
+<edge layout="yes">
+   <relation name="fills"> <type name="Filler"/> <type name="Slot"/> </relation>
+   <relation name="slot_of"> <type name="Slot"/> <type name="Filler"/> </relation>
+</edge>
+
+</view>
+
+</alloy>
